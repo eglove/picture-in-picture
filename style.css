@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: whitesmoke;
+  display: grid;
+  place-items: center;
+  grid-template-columns: auto;
+}
+
+p {
+  text-align: center;
+}
+
+.button-container {
+  border: 2px solid silver;
+  padding: 10px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  -webkit-box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.7);
+  -moz-box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.7);
+  box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.7);
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  width: 120px;
+  height: 75px;
+  font-family: Raleway, sans-serif;
+  text-shadow: 0 2px 5px silver;
+  border: 2px solid silver;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  -webkit-box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.4), 0 12px 12px 0 rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.4), 0 12px 12px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.4), 0 12px 12px 0 rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+  transform: translateY(3px);
+  -webkit-box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.3);
+}
